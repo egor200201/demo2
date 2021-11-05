@@ -1,1 +1,244 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T14:41:26.273Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 YaBrowser/21.9.2.169 Yowser/2.5 Safari/537.36" version="15.5.6" etag="R_vCEcmj4aA35lUaw7vC" type="github"><diagram id="9pjwj53UBDwq80PFgt_S">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-05T16:35:28.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 YaBrowser/21.9.2.169 Yowser/2.5 Safari/537.36" etag="8MoESotzCHUjj9vOMHFF" version="15.5.6" type="github">
+  <diagram id="9pjwj53UBDwq80PFgt_S" name="Page-1">
+    <mxGraphModel dx="2464" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="врач&lt;br&gt;" id="WO35Un4Q_wwIzxZ4HyMN-1">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="40" y="360" width="30" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-3" value="регистрация нового обследования&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-4" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WO35Un4Q_wwIzxZ4HyMN-1" target="WO35Un4Q_wwIzxZ4HyMN-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="470" as="sourcePoint" />
+            <mxPoint x="400" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-5" value="выбор пациента из списка" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-6" value="регистрация нового пациента" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-21" value="предварительный опрос датчиков" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;align=left;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-22" value="старт обследования&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;align=left;" vertex="1" parent="1">
+          <mxGeometry x="760" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-23" value="просмотр данных&lt;br&gt;&amp;nbsp;пациента в режиме реального времени" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-24" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontFamily=Helvetica;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WO35Un4Q_wwIzxZ4HyMN-6" target="WO35Un4Q_wwIzxZ4HyMN-66">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="100" y="480" as="sourcePoint" />
+            <mxPoint x="420" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-25" value="&lt;div style=&quot;text-align: justify&quot;&gt;extend&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" vertex="1" connectable="0" parent="WO35Un4Q_wwIzxZ4HyMN-24">
+          <mxGeometry x="0.68" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-34" value="выбор нужных датчиков" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-35" value="выбор типа физической нагрузки" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="550" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-36" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontFamily=Helvetica;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="WO35Un4Q_wwIzxZ4HyMN-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="199.28999999999996" as="sourcePoint" />
+            <mxPoint x="480" y="199.63" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-37" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" vertex="1" connectable="0" parent="WO35Un4Q_wwIzxZ4HyMN-36">
+          <mxGeometry x="-0.3178" y="-1" relative="1" as="geometry">
+            <mxPoint x="-397" y="-181" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-65" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" vertex="1" connectable="0" parent="WO35Un4Q_wwIzxZ4HyMN-36">
+          <mxGeometry x="-0.6264" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-39" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontFamily=Helvetica;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="WO35Un4Q_wwIzxZ4HyMN-22">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="600" y="199.29" as="sourcePoint" />
+            <mxPoint x="700" y="199.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-40" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" vertex="1" connectable="0" parent="WO35Un4Q_wwIzxZ4HyMN-39">
+          <mxGeometry x="-0.2671" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-43" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontFamily=Helvetica;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1120" y="379.29" as="sourcePoint" />
+            <mxPoint x="1230" y="379.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-45" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" vertex="1" connectable="0" parent="WO35Un4Q_wwIzxZ4HyMN-43">
+          <mxGeometry x="-0.2892" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-44" value="завершение обследование" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-46" value="заведующий отделением" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="30" y="830" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-47" value="просмотр списка всех пациентов" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;align=center;" vertex="1" parent="1">
+          <mxGeometry x="100" y="780" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-48" value="удаление пациента из списка" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="920" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-50" value="просмотр списка пациентов" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;align=center;" vertex="1" parent="1">
+          <mxGeometry x="10" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-51" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WO35Un4Q_wwIzxZ4HyMN-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="760" as="sourcePoint" />
+            <mxPoint x="120" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-52" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WO35Un4Q_wwIzxZ4HyMN-46" target="WO35Un4Q_wwIzxZ4HyMN-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="770" as="sourcePoint" />
+            <mxPoint x="270" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-53" value="просмотр списка своих пациентов" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;align=center;" vertex="1" parent="1">
+          <mxGeometry x="110" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-55" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WO35Un4Q_wwIzxZ4HyMN-53" target="WO35Un4Q_wwIzxZ4HyMN-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="540" as="sourcePoint" />
+            <mxPoint x="80" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-58" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontFamily=Helvetica;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WO35Un4Q_wwIzxZ4HyMN-50" target="WO35Un4Q_wwIzxZ4HyMN-53">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="580" as="sourcePoint" />
+            <mxPoint x="280" y="580" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-59" value="extend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" vertex="1" connectable="0" parent="WO35Un4Q_wwIzxZ4HyMN-58">
+          <mxGeometry x="-0.2563" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-61" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontFamily=Helvetica;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WO35Un4Q_wwIzxZ4HyMN-50" target="WO35Un4Q_wwIzxZ4HyMN-47">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="70" y="610" as="sourcePoint" />
+            <mxPoint x="230" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-62" value="extend" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" vertex="1" connectable="0" parent="WO35Un4Q_wwIzxZ4HyMN-61">
+          <mxGeometry x="0.3918" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-66" value="выбор пациента" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;align=left;" vertex="1" parent="1">
+          <mxGeometry x="350" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-68" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontFamily=Helvetica;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="WO35Un4Q_wwIzxZ4HyMN-66">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="320" as="sourcePoint" />
+            <mxPoint x="640" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-69" value="extend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" vertex="1" connectable="0" parent="WO35Un4Q_wwIzxZ4HyMN-68">
+          <mxGeometry x="0.5283" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-70" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontFamily=Helvetica;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WO35Un4Q_wwIzxZ4HyMN-35" target="WO35Un4Q_wwIzxZ4HyMN-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="270" y="480" as="sourcePoint" />
+            <mxPoint x="430" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-71" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" vertex="1" connectable="0" parent="WO35Un4Q_wwIzxZ4HyMN-70">
+          <mxGeometry x="-0.225" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-72" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontFamily=Helvetica;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WO35Un4Q_wwIzxZ4HyMN-34">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="280" as="sourcePoint" />
+            <mxPoint x="240" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-73" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" vertex="1" connectable="0" parent="WO35Un4Q_wwIzxZ4HyMN-72">
+          <mxGeometry x="-0.2453" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-76" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontFamily=Helvetica;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="WO35Un4Q_wwIzxZ4HyMN-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="390" as="sourcePoint" />
+            <mxPoint x="510" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-77" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" vertex="1" connectable="0" parent="WO35Un4Q_wwIzxZ4HyMN-76">
+          <mxGeometry x="-0.2996" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-78" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontFamily=Helvetica;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="600" y="330" as="sourcePoint" />
+            <mxPoint x="760" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-79" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" vertex="1" connectable="0" parent="WO35Un4Q_wwIzxZ4HyMN-78">
+          <mxGeometry x="-0.2671" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-80" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontFamily=Helvetica;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="600" y="460" as="sourcePoint" />
+            <mxPoint x="760" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-81" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" vertex="1" connectable="0" parent="WO35Un4Q_wwIzxZ4HyMN-80">
+          <mxGeometry x="-0.2671" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-82" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontFamily=Helvetica;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="600" y="589.29" as="sourcePoint" />
+            <mxPoint x="760" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-83" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" vertex="1" connectable="0" parent="WO35Un4Q_wwIzxZ4HyMN-82">
+          <mxGeometry x="-0.2671" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-84" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontFamily=Helvetica;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WO35Un4Q_wwIzxZ4HyMN-22" target="WO35Un4Q_wwIzxZ4HyMN-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1010" y="610" as="sourcePoint" />
+            <mxPoint x="1170.0000000000136" y="800.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WO35Un4Q_wwIzxZ4HyMN-85" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" vertex="1" connectable="0" parent="WO35Un4Q_wwIzxZ4HyMN-84">
+          <mxGeometry x="-0.2671" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
